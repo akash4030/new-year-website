@@ -60,3 +60,68 @@
     display: flex;
     justify-content: center;
 }
+
+.pic-part-two {
+    background-image: url(./B9A1-New-Year-New-Mission-main/resources/Vectorrr.png);
+}
+
+.pic-part-two p {
+    width: 697px;
+    padding-top: 33px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 158px;
+    margin-bottom: 48px;
+}
+
+.pic-part-two h1 {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 148px;
+    margin-left: 158px;
+}
+
+/* about section */
+
+.about-main{
+    background:rgba(255, 0, 0, 0.10) ;
+}
+
+.about {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    
+
+}
+
+.about h1 {
+    color: #F00;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+
+.about-btn {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 110px;
+}
+
+.about-btn button {
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 700;
+    padding: 16px 32px;
+    margin-bottom: 126px;
+}
