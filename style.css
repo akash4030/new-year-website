@@ -53,3 +53,10 @@
     margin-bottom: 643px;
     margin-top: 5px;
 }
+
+/* pic new year */
+
+.pic-new-year {
+    display: flex;
+    justify-content: center;
+}
