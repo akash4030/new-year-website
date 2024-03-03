@@ -234,7 +234,7 @@
 }
 
 .portfolio-text {
-    max-width: 1600px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -264,8 +264,8 @@
 }
 
 .portfolio-pic {
-    margin-top: 48px;
-    max-width: 1600px;
+    margin-top: 55px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -344,4 +344,76 @@
     text-transform: capitalize;
     margin-left: 0px;
     background: #F00;
+}
+
+/* footer sectiom */
+
+.footer {
+    background: #070211;
+}
+
+.footer-address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-add {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 120px;
+    padding-left: 140px;
+    max-width: 375px;
+}
+
+.fotter-call {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-right: 275px;
+    margin-top: 120px;
+}
+
+.fotter-call h2 {
+    margin-bottom: 0px;
+}
+
+.fotter-call h3 {
+    margin-top: 0px;
+}
+
+.footer-icon {
+    text-align: center;
+}
+
+.footer-icon img {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.footer-shas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-shas h1 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 140px;
+    padding-bottom: 120px;
+}
+
+.footer-shas span {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 500;
+    padding-right: 315px;
+    padding-bottom: 120px;
+}
+.footer hr{
+    background: rgba(255, 255, 255, 0.15);
+    margin: 60px;
 }
