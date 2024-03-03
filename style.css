@@ -1,10 +1,18 @@
+/* common tag */
+* {
+    font-optical-sizing: auto;
+}
+
 /* header css */
 
 .header {
     background-image: url("./B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
-.banner {}
+
 
 .banner h3 {
     color: #FFF;
@@ -63,18 +71,20 @@
 
 .pic-part-two {
     background-image: url(./B9A1-New-Year-New-Mission-main/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .pic-part-two p {
     width: 697px;
     padding-top: 33px;
-    color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    color: #ffffffcc;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     padding-left: 158px;
     margin-bottom: 48px;
+    margin-left: 200px;
 }
 
 .pic-part-two h1 {
@@ -82,13 +92,15 @@
     color: white;
     font-weight: 700;
     padding-bottom: 148px;
-    margin-left: 158px;
+    margin-left: 358px;
 }
 
 /* about section */
 
-.about-main{
-    background:rgba(255, 0, 0, 0.10) ;
+.about-main {
+    background: rgba(255, 0, 0, 0.10);
+    max-width: 1320px;
+    margin: auto;
 }
 
 .about {
@@ -96,7 +108,7 @@
     text-align: center;
     justify-content: center;
     margin-top: 120px;
-    
+
 
 }
 
@@ -124,4 +136,88 @@
     font-weight: 700;
     padding: 16px 32px;
     margin-bottom: 126px;
+}
+
+/* upcoming offer */
+.upcoming-offer {
+    display: flex;
+    justify-content: center;
+}
+
+.new-offer {
+    max-width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-right: 70px;
+    max-width: 392px;
+}
+
+.pic-upcoming-offer {
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.offer-date {
+    margin-left: 134px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 276px;
+}
+
+/* Discount offer */
+
+.discount-offer {
+    text-align: center;
+}
+
+.discount-offer h3 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 234px;
+    margin-bottom: 5px;
+}
+
+.discount-offer h1 {
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.discount-offer p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    
+}
+.discount-offer-pic-1{
+    background: url(./B9A1-New-Year-New-Mission-main/resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 1600px;
+    display: block;
+    text-align: center;
+    
+}
+.discount-offer-pic-2{
+    background: url(./B9A1-New-Year-New-Mission-main/resources/Rectangle\ 2.png);
+    background-position: center;
+    max-width: 1312px;
+    max-height: 229px;
+    margin: auto;
+    text-align: start;
+    
 }
