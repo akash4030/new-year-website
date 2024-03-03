@@ -201,23 +201,74 @@
     max-width: 700px;
     display: block;
     margin: auto;
-    
+
 }
-.discount-offer-pic-1{
+
+.discount-offer-pic-1 {
     background: url(./B9A1-New-Year-New-Mission-main/resources/Rectangle\ 1.png);
     background-repeat: no-repeat;
     background-position: right;
     max-width: 1600px;
     display: block;
     text-align: center;
-    
+
 }
-.discount-offer-pic-2{
+
+.discount-offer-pic-2 {
     background: url(./B9A1-New-Year-New-Mission-main/resources/Rectangle\ 2.png);
     background-position: center;
     max-width: 1312px;
     max-height: 229px;
     margin: auto;
     text-align: start;
-    
+
+}
+
+.discount-offer-pic {
+    margin-bottom: 600px;
+}
+
+/* portfolio section */
+.portfolio{
+    margin-bottom: 124px;
+}
+
+.portfolio-text {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.portfolio-text h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-text h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.portfolio-text p {
+    max-width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 2px;
+}
+.portfolio-pic{
+    margin-top: 48px;
+    max-width: 1600px;
+    margin: auto;
+}
+.portfolio-pic img {
+    border-radius: 16px;
+    margin-left: 24px;
+    margin-bottom: 24px;
 }
